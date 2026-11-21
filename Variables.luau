@@ -9,6 +9,7 @@ ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"));
 ScriptContext = cloneref(game:GetService("ScriptContext"));
 LogService = cloneref(game:GetService("LogService"));
 
+os_clock = clonefunction(os["clock"]);
 
 task_wait = clonefunction(task["wait"]);
 
