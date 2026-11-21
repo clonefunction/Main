@@ -5,6 +5,7 @@ RunService = cloneref(game:GetService("RunService"));
 Heartbeat = RunService["Heartbeat"];
 RenderStepped = RunService["RenderStepped"];
 
+ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"));
 ScriptContext = cloneref(game:GetService("ScriptContext"));
 LogService = cloneref(game:GetService("LogService"));
 
