@@ -1,12 +1,12 @@
-local Players = cloneref(game:GetService("Players"));
-local LocalPlayer = Players["LocalPlayer"];
+Players = cloneref(game:GetService("Players"));
+LocalPlayer = Players["LocalPlayer"];
 
-local RunService = cloneref(game:GetService("RunService"));
-local Heartbeat = RunService["Heartbeat"];
-local RenderStepped = RunService["RenderStepped"];
+RunService = cloneref(game:GetService("RunService"));
+Heartbeat = RunService["Heartbeat"];
+RenderStepped = RunService["RenderStepped"];
 
-local ScriptContext = cloneref(game:GetService("ScriptContext"));
-local LogService = cloneref(game:GetService("LogService"));
+ScriptContext = cloneref(game:GetService("ScriptContext"));
+LogService = cloneref(game:GetService("LogService"));
 
 
 task_wait = clonefunction(task["wait"]);
