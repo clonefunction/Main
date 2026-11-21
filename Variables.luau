@@ -7,3 +7,8 @@ local RenderStepped = RunService["RenderStepped"];
 
 local ScriptContext = cloneref(game:GetService("ScriptContext"));
 local LogService = cloneref(game:GetService("LogService"));
+
+
+task_wait = clonefunction(task["wait"]);
+
+coroutine_wrap = clonefunction(coroutine["wrap"]);
