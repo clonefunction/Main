@@ -12,5 +12,6 @@ LogService = cloneref(game:GetService("LogService"));
 os_clock = clonefunction(os["clock"]);
 
 task_wait = clonefunction(task["wait"]);
+task_spawn = clonefunction(task["spawn"]);
 
 coroutine_wrap = clonefunction(coroutine["wrap"]);
